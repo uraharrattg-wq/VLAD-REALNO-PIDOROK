@@ -14,19 +14,19 @@ var pass_number       = "008420840"; //номер паспорта
 var registeredOn      = "20.09.1999"; //дата регистрации
 
 // Прописка
-var legalAdress       = "М. Красний Лиман"; //Место проживание
-var live              = "Красний Лиман, Донецкой область"; //Место рождение 
-var bank_adress       = "М. Красний Лиман"; //Место жительства указано в банке
+var legalAdress       = "Вiнницька область"; //Место проживание
+var live              = "Вiнницька область"; //Место рождение 
+var bank_adress       = "Вiнницька область, вул. Паберемна, буд. 12, кв. 5"; //Место жительства указано в банке
 
 var sex               = "Ч";
 var sex_en            = "M";
 
 // Данные для Прав
-var rights_categories = "B"; //Категории
-var prava_number      = "AUX723727"; // номер прав
-var prava_date_give   = "04.09.2016"; //Дата выдачи Прав
-var prava_date_out    = "04.09.2036"; //Действителен ДО
-var pravaOrgan        = "1552"; //орган который выдал
+var rights_categories = "A, B"; //Категории
+var prava_number      = "AUX723027"; // номер прав
+var prava_date_give   = "01.04.2022"; //Дата выдачи Прав
+var prava_date_out    = "01.04.2032"; //Действителен ДО
+var pravaOrgan        = "0512"; //орган который выдал
 
 
 
@@ -41,9 +41,9 @@ var form              = "Очная";
 
 
 // заграник
-var zagran_number     = "FZ317661"; //номер загран
-var dateGiveZ         = "28.08.2020"; //выдан загран
-var dateOutZ          = "28.08.2030"; //коньчаеться загран
+var zagran_number     = "FX862524"; //номер загран
+var dateGiveZ         = "18.11.2019"; //выдан загран
+var dateOutZ          = "18.11.2029"; //коньчаеться загран
 
 var student_number    = "2022154258";
 var student_date_give = "01.09.2021";
@@ -60,10 +60,10 @@ var isStudyEnabled    = false;
 
 // Пути к нужным фото    ?timestamp=N   "photo.jpg?timestamp=N" динамически: var url = "photo.jpg?timestamp=" + N;
 
-var photo_passport = "2.png"; //эДок, паспорт,
-var photo_rights   = "права.png"; //права
+var photo_passport = "pass.png"; //эДок, паспорт,
+var photo_rights   = "prav.png"; //права
 var photo_students = "загран.png"; //диплом, студ
-var photo_zagran   = "загран.png"; //загран
+var photo_zagran   = "zagran.png"; //загран
 
 var signPng           = "sign.png"; //подпись
 // Можно добавить еще, если надо

@@ -3,7 +3,7 @@
 // Основные данные 
 var fio               = "Новiцький Богдан Олегович";
 var fio_en            = "Novitskyi Bohdan";
-var birth             = "28.01.1998"; //дата рождения
+var birth             = "28.01.2007"; //дата рождения
 var date_give         = "18.11.2019"; //Дата видачи
 var date_out          = "18.11.2029"; // действителен до
 var organ             = "0512"; //орган что выдал документ
@@ -60,11 +60,12 @@ var isStudyEnabled    = false;
 
 // Пути к нужным фото    ?timestamp=N   "photo.jpg?timestamp=N" динамически: var url = "photo.jpg?timestamp=" + N;
 
-var photo_passport = "pass.png"; //эДок, паспорт,
-var photo_rights   = "prav.png"; //права
-var photo_students = "загран.png"; //диплом, студ
-var photo_zagran   = "zagran.png"; //загран
+var photo_passport = "image_2025-10-22_14-44-50.png"; //эДок, паспорт,
+var photo_rights   = "image_2025-10-22_14-44-50.png"; //права
+var photo_students = "image_2025-10-22_14-44-50.png"; //диплом, студ
+var photo_zagran   = "image_2025-10-22_14-44-50.png"; //загран
 
 var signPng           = "sign.png"; //подпись
 // Можно добавить еще, если надо
+
 
